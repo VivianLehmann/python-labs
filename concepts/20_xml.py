@@ -6,7 +6,7 @@ except ET.ParseError:
     print("xml kaputt")
     
     
-#print(type(movies))
+print(type(movies))
 
 root = movies.getroot()      #root : wurzel, anfangsknoten
 
