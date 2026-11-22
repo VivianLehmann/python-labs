@@ -37,7 +37,7 @@ print(heute)
 time_difference = heute - datum
 print(type(time_difference))
 
-#heute = heute.replace(year=2028)
+heute = heute.replace(year=2028)
 print(heute)
 
 print(heute.weekday())         # montag ist 0 , sonntag ist 6
