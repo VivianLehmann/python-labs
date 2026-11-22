@@ -13,7 +13,7 @@ def countdown(sekunden) :
         time.sleep(1)
     print("zeit abgelaufen")
 
-#countdown(5)
+countdown(5)
 
 def draw_art(size): 
     for i in range(size):
@@ -21,18 +21,18 @@ def draw_art(size):
         print(zeichen, end="",flush=True)
         time.sleep(0.1)
 
-#draw_art(50)
+draw_art(50)
 
 
 #laufzeit messen mit time.perf_counter()
 start_zeit =time.perf_counter()
 
-#print("code wir ausgeführt...")
+print("code wir ausgeführt...")
 time.sleep(1)
 
 end_zeit = time.perf_counter()
 laufzeit = end_zeit - start_zeit
-#print(f"das programm hat {laufzeit} sekundengebraucht.")
+print(f"das programm hat {laufzeit} sekundengebraucht.")
 
 #####################################################################
 
